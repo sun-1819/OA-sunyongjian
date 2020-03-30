@@ -1,0 +1,68 @@
+.area{}
+	.error{
+		font-size:12px;
+		color:red;
+	}
+
+
+.rowgg{
+                border: 2px solid #f35626;
+                padding: 1.5rem;
+                color: #f35626;
+                -webkit-animation: hue 30s infinite linear;
+                background-color: transparent;
+                -webkit-appearance:none;
+                border-radius: 10px;
+            }
+            @-webkit-keyframes hue {
+              from {
+                -webkit-filter: hue-rotate(0deg);
+              }
+
+              to {
+                -webkit-filter: hue-rotate(-360deg);
+              }
+            }
+
+            .rows{
+                color: #f35626;
+                
+                font-size: 29px;
+                margin-top: 30px;
+	            width: 86%;
+                background-image:-webkit-linear-gradient(92deg,#f35626,#feab3a);
+                -webkit-animation: hue 27s infinite linear;
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip:text;
+            }
+
+.bb{
+	color: #f35626;
+                /*font-size: 6rem;*/
+                background-image:-webkit-linear-gradient(92deg,#f35626,#feab3a);
+                -webkit-animation: hue 27s infinite linear;
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip:text;
+               
+}
+.text{
+    /* width: 300px;
+    height: 200px; */
+    /* position: absolute; */
+   /*  left: 50%;
+    margin-left: -150px; */
+    background-image: -webkit-linear-gradient(left,blue,#66ffff 10%,#cc00ff 20%,#CC00CC 30%, #CCCCFF 40%, #00FFFF 50%,#CCCCFF 60%,#CC00CC 70%,#CC00FF 80%,#66FFFF 90%,blue 100%);
+    -webkit-text-fill-color: transparent;/* 将字体设置成透明色 */
+    -webkit-background-clip: text;/* 裁剪背景图，使文字作为裁剪区域向外裁剪 */
+    -webkit-background-size: 200% 100%; 
+    -webkit-animation: masked-animation 4s linear infinite;
+    /* font-size: 35px; */
+}
+@keyframes masked-animation {
+    0% {
+        background-position: 0  0;
+    }
+    100% {
+        background-position: -100%  0;
+    }
+}
